@@ -1,0 +1,23 @@
+.cboxElement{
+ cursor: zoom-in !important;
+ }
+
+#cboxOverlay {
+ background:#000; /* Changed from #fff */
+ opacity: 0.8 !important;
+ filter: alpha(opacity = 80) !important;
+ cursor: zoom-out !important;
+ z-index: 999;
+ }
+
+#cboxClose{
+ position:absolute;
+ bottom:0;
+ right:0;
+ display:block;
+ color:#444;
+ font-size: 12px;
+ text-indent: -9999px;
+ padding: 80%; /* NB! Makes the close button go across the full page, so the zoom out cursor is also seen across the full image. */
+ cursor: zoom-out;
+ }

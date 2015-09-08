@@ -1,0 +1,144 @@
+/*
+Theme Name:     Ample Child Theme
+Theme URI:      http://themegrill.com/themes/ample/
+Description:    Child theme for the Ample theme
+Author:         Steve Talley
+Author URI:     http://talleyservices.com
+Template:       ample
+Version:        1.0
+*/
+
+@import url("../ample/style.css");
+
+/* Enter Your Custom CSS Here */
+/*.main-navigation a:hover, .main-navigation ul li.current-menu-item a, .main-navigation ul li.current-menu-item a::after, .main-navigation ul li.current-menu-ancestor a, .main-navigation ul li.current-menu-ancestor a::after, .main-navigation ul li.current_page_item a::after, .main-navigation ul li.current_page_item a, .main-navigation ul li.current_page_ancestor a, .main-navigation ul li.current_page_ancestor a::after, .main-navigation ul li:hover > a, .main-navigation li.menu-item-has-children:hover > a::after, .main-navigation li.page_item_has_children:hover > a::after {
+    color: #5E308F;
+}
+.main-navigation ul.menu > li.current-menu-item, .main-navigation ul.menu > li.current-menu-ancestor, .main-navigation .menu > ul > li.current_page_item, .main-navigation .menu > ul > li.current_page_ancestor, .main-navigation ul.menu > li:hover, .main-navigation .menu > ul > li:hover {
+    border-top: 2px solid #5E308F;
+}
+
+a {
+    color: #5E308F;
+}
+.big-slider .entry-title a:hover {
+    color: #5E308F;
+}ss
+.fa.search-top {
+    color: #5E308F;
+}
+.single-service span i {
+    color: #5E308F;
+}
+.slide-prev, .slide-next {
+    background-color: #5E308F;
+}
+.single-service:hover .icons {
+    background-color: #5E308F;
+}
+
+.moving-box a {
+    background-color: #5E308F;
+}
+
+.read-btn a {
+    border: 1px solid #5E308F;
+}
+
+.read-btn a:hover {
+    background-color: #5E308F;
+}
+.single-post-content a {
+    color: #5E308F;
+}*/
+
+
+.portfolio-title {
+	font-size: large;
+
+}
+
+.portfolio-category-heading h2 {
+
+	font-size: 40px;
+	text-align: center;
+
+}
+
+/* Portfolio Template Columns */
+/*
+.portfolio-wrap {
+    width:90%;
+    margin:20px auto;
+}
+
+.porfolio-column-1{
+	float:left;
+	width:150px;
+}
+.porfolio-column-2 {
+	float:right;
+	width:150px;
+}
+*/
+
+
+div.portfolio-wrap {
+  -webkit-column-count: 3;
+     -moz-column-count: 3;
+          column-count: 3;
+  -webkit-column-width: 100px;
+     -moz-column-width: 100px;
+          column-width: 100px;
+  -webkit-column-gap: 4em;
+     -moz-column-gap: 4em;
+          column-gap: 4em;
+  -webkit-column-rule: 1px dotted #ddd;
+     -moz-column-rule: 1px dotted #ddd;
+          column-rule: 1px dotted #ddd;
+
+}
+
+ul.portfolio-unorderedlist {
+
+}
+
+/* Make the divs that hold the images dynamically resize */
+div.portfolio-inner {
+	
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.portfolio-inner img{
+
+	vertical-align:bottom;
+}
+/*a.portfolio-image  {
+	background: #ecede5;
+	border: 0;
+	float: left;
+	margin: 0 0 12px 0;
+	padding: 0;
+	height: 385px;
+	width: 385px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}*/
+
+/* Control padding at bottom of content-portfolio.php posts */
+article.portfolio-article {
+
+	padding-bottom: 0px;
+}
+
+
+@media only screen and (max-width: 560px) {
+	div.portfolio-wrap {
+		-webkit-column-count: 1;
+		   -moz-column-count: 1;
+                column-count: 1;
+	}
+}
